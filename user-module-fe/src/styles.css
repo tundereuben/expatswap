@@ -1,0 +1,66 @@
+body, html, div {
+    margin: 0;
+    padding: 0;
+    color: #3d1560;
+}
+
+.nav-link {
+    color: #3d1560;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.nav-link:hover, .nav-link:active {
+    background-color: #3d1560;
+    color: #fff;;
+}
+
+.nav-link:focus {
+    /* color: #df678c; */
+    background-color: #3d1560;
+    color: #fff;
+}
+
+.form-container {
+  border: solid 1px #3d1560;
+  border-radius: 10px;
+  padding: 3rem;
+  margin-top: 5rem;
+  background: #eeeeee;
+}
+
+label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #3d1560;
+  width: 100%;
+  border: solid 1px #3d1560
+}
+
+.input-error {
+    color: red;
+    font-size: small;
+    text-align: left;
+}
+
+.p-datatable .p-datatable-tbody > tr > td,
+.p-datatable .p-datatable-thead > tr > th {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  color: #3d1560;
+}
+
+.input-group-text {
+  color: #3d1560;
+}
+
+.p-datatable .p-paginator-bottom {
+    padding: 0;
+}
+
+.card {
+  border: solid 1px #3d1560;
+}
